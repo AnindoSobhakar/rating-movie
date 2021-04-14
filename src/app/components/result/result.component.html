@@ -1,0 +1,30 @@
+<div class="container">
+        <div class="row" *ngIf="act">
+            <div class="col-md-4 offset-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{movie?.Poster}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{movie?.Title}}</h5>
+                        <p class="card-text">{{movie?.Actors}}</p>
+                        <p class="card-text">{{movie?.Director}}</p>
+                        <p class="card-text"><select name = "dropdown" [(ngModel)]="rating" >
+                            <option value = "1">1</option>
+                            <option value = "2">2</option>
+                            <option value = "3">3</option>
+                            <option value = "4">4</option>
+                            <option value = "5">5</option>
+                            <option value = "6">6</option>
+                            <option value = "7">7</option>
+                            <option value = "8">8</option>
+                            <option value = "9">9</option>
+                            <option value = "10">10</option>
+                         </select></p>
+                        <p><button (click)="saveRating()" class="btn btn-primary">Save Rating</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" *ngIf="!act">
+            <img src="assets/img/404.jpg" alt="">
+        </div>
+</div>

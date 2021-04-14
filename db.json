@@ -1,0 +1,38 @@
+{
+  "movie": [
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGI5ZTU2M2YtZWY4MC00ZDFhLTliYTItZTk1NjdlN2NkMzg2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX300.jpg",
+      "title": "Don't Breathe",
+      "actors": "Stephen Lang, Jane Levy, Dylan Minnette, Daniel Zovatto",
+      "director": "Fede Alvarez",
+      "rating": "9",
+      "id": 2
+    },
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzk0MTg5MzEyOF5BMl5BanBnXkFtZTcwNDUyMzIzMQ@@._V1_SX300.jpg",
+      "title": "The Hills Have Eyes",
+      "actors": "Maxime Giffard, Michael Bailey Smith, Tom Bower, Ted Levine",
+      "director": "Alexandre Aja",
+      "rating": "9",
+      "id": 3
+    },
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "title": "Home Alone",
+      "actors": "Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard",
+      "director": "Chris Columbus",
+      "rating": "4",
+      "id": 4
+    }
+  ],
+  "fav": [
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGI5ZTU2M2YtZWY4MC00ZDFhLTliYTItZTk1NjdlN2NkMzg2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX300.jpg",
+      "title": "Don't Breathe",
+      "actors": "Stephen Lang, Jane Levy, Dylan Minnette, Daniel Zovatto",
+      "director": "Fede Alvarez",
+      "rating": "9",
+      "id": 2
+    }
+  ]
+}

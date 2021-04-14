@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row" >
+        <div class="col-md-4 offset-md-4" >
+            <div class="card" style="width: 18rem;" *ngFor="let m of movie">
+                <img [src]="m.poster" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{m.title}}</h5>
+                    <p class="card-text">{{m.actors}}</p>
+                    <p class="card-text">{{m.director}}</p>
+                    <p class="card-text">
+                        <span *ngFor="let r of showRating(m.rating)">
+                            <i class="fa fa-star"></i>
+                        </span>
+                    </p>
+                    <p class="card-text">
+                        <button (click)="delete(m)" class="btn btn-primary">Delete</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
